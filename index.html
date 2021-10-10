@@ -21,9 +21,9 @@
 		}
 		</style>
 
-		<title>Presentation Title</title>
+		<title>Standardization of Neuroimaging Data Management inside Synapsy</title>
 
-		<meta name="description" content="TO BE COMPLETED">
+		<meta name="description" content="Annual NCCR-Synapsy meeting in Les Diablerets: Updates on Neuroimaging Data Management">
 		<meta name="author" content="Sebastien Tourbier">
 
 		<meta name="apple-mobile-web-app-capable" content="yes">
@@ -50,72 +50,196 @@
 				<section>
 					<br>
 					<br>
-					<h2>Presentation Title</h2>
+					<h3>Standardization of Neuroimaging Data Management inside Synapsy</h3>
 					<p>
-						<small>RevealJS Template</small>
-					</p>
-					<p>
-						<small>by <a href="https://wp.unil.ch/connectomics/sebastien-tourbier/">Sebastien Tourbier</a></small>
-					</p>
-					<p>
-						<small>DD MM 2021</small>
-					</p>
-					<p>
+						<small>Annual Meeting 2021 in Les Diablerets, Switzerland</small><br>
+						<small>by <a href="https://wp.unil.ch/connectomics/prof-patric-hagmann/">Patric Hagmann</a> and <a href="https://wp.unil.ch/connectomics/sebastien-tourbier/">Sebastien Tourbier</a></small><br>
+
+						<small>14 October 2021</small><br>
+
 						<img data-src="images/synapsy_logo.png" alt="NCCR-Synapsy logo" style="height: 100px; margin: 0 auto 4rem auto; background: transparent;" class="demo-logo">
 						<img data-src="images/connectomicslab_logo.png" alt="Connectomicslab logo" style="height: 100px; margin: 0 auto 4rem auto; background: transparent;" class="demo-logo">
 					</p>
 				</section>
 
-				<section>
-					<h2>TRANSITION SLIDE</h2>
-				</section>
+				<!-- <section>
+					<section>
+						<h2>Why?</h2>
+					</section>
+
+					<section>
+						<h3>Execution of DMP satisfying open science requirements</h3>
+						<p>
+							<small>
+								<ul>
+									<li>SNSF expects all its funded researchers:<br><br>
+										<ul>
+											<li>to <a style="color:chocolate">store the research data</a> they have worked on and produced during the course of their research work</li>
+											<li>to <a style="color:chocolate">share these data</a> with other researchers, unless they are bound by legal, ethical, copyright, confidentiality or other clauses</li>
+											<li>to <a style="color:chocolate">deposit their data and metadata onto existing public repositories</a> in formats that anyone can find, access and reuse without restriction, conformed with the <a style="color:chocolate">Findable Accessible Interoperable Reusable (FAIR) principles</a></li>
+										</ul><br><br>
+
+										<center>
+											<a href="http://www.snf.ch/SiteCollectionDocuments/allg_reglement_16_e.pdf">Art 47 SNSF Funding Regulations</a>  and <a href="http://www.snf.ch/en/theSNSF/research-policies/open_research_data/Pages/default.aspx#SNSF policy on Open Research Data">SNSF Open Research Data Policy</a>
+										</center>
+
+									</li>
+									
+								</ul>
+							</small>
+						</p>
+
+					</section>
+
+					<section>
+						<h3>Advantages of adopting Synapsy DMP</h3>
+						<p>
+							<small>
+								<ul>
+									<li><a style="color:dodgerblue">Ease of sharing and reuse</a> - No need to spend a considerable amount of time to understand data organization and adapt code to each researcher or lab.</li><br>
+									<li><a style="color:dodgerblue">Automated processing pipelines</a> can be built to analyze data</li><br>
+									<li><a style="color:dodgerblue">Meta-analysis accross datasets</a> become possible</li>
+								</ul>
+							</small>
+						</p>
+
+					</section>
+				</section> -->
 
 				<section>
-					<h3>Slide with list and small font size</h3>
+					<h3>Synapsy Data Management Plan (DMP) for neuroimaging data</h3>
 					<p>
-							<ul>		
-								<li> item 1
-								</li><br>
-								
-								<li> item 2<br><br>
-									<ul>
-										<small>
-											<li>item <a style="color:dodgerblue">2.1</a></li><br>
-											<li>item <a style="color:chocolate">2.2</a></li>
-										</small>
-									</ul>
-								</li>
-								
+						<small>
+							<ul>
+								<li><a style="color:dodgerblue">Community standard to organize and describe neuroimaging data</a> along with metadata: <a style="color:chocolate">Brain Imaging Data Structure (BIDS)</a> - <a href="https://bids.neuroimaging.io/">https://bids.neuroimaging.io/</a></li><br>
+								<li><a style="color:dodgerblue">Distributed data versioning and management system</a> tailored to neuroimaging data: <a style="color:chocolate">Datalad</a> -  <a href="https://www.datalad.org/">https://www.datalad.org/</a></li><br>
+								<li><a style="color:dodgerblue">Distributed storage of neuroimaging data</a> accross the different institution servers with <a style="color:chocolate">access controlled by PIs</a>.</li><br>
 							</ul>
-						
+						</small>
 					</p>
 
 				</section>
 
 				<section>
+					<h3>SYNAPSY DMP Road Map</h3>
+
+					<center>
+						<img data-src="images/dmp_solution.005.png" alt="A FAIR solution" style="height: 480px; margin: 0.5rem 0.5rem 0.5rem a0.5rem; background: transparent;" class="demo-logo">
+					</center>
+				</section>
+
+				<section>
+				<h3>Objectives</h3>
+				<small>
+					<p style="text-align: left">
+						
+						By February:<br>
+						<ul>
+							<li><a style="color:dodgerblue">DMP implemented or introduced for most of the neuroimaging cohorts</a> based on the presented bottom-up approach and in control of each PI</li>
+						</ul>
+					</p>
+
+					<p style="text-align: left">
+						<a style="color:dodgerblue">&#8594;</a> Facilitate future collaborations between groups
+					</p>
+
+					<p style="text-align: left">
+						<a style="color:dodgerblue">&#8594;</a> Ease the sharing of Synapsy neuroimaging cohorts on open data repositories to fully satisfy SNSF FAIR research data requirements
+					</p>
+
+					<p style="text-align: left">
+						<a style="color:dodgerblue">&#8594;</a> Enable the analysis of Synapsy neuroimaging cohort with a collection of automated processing pipelines (<a href="https://bids-apps.neuroimaging.io/">https://bids-apps.neuroimaging.io/</a>)
+					</p>
+				</small>
+
+				</section>			
+
+				<section>
+					<h3>Progress</h3>
+
+					<center>
+						<img data-src="images/dmp_progress.001.png" alt="DMP execution progress" style="height: 480px; margin: 0.5rem 0.5rem 0.5rem 0.5rem; background: transparent;" class="demo-logo">
+					</center>
+				</section>
+
+				<section>
 					<section>
-						<h2>Section title slide</h2>
+						<h3>Early-Psychosis MRI Cohort</h3>
+						<small>
+							<ul>
+								<li>BIDS dataset created from DICOMs validated with <a href="">bids-validator</a>:
+									<pre><code data-trim class="language-shell" style="word-wrap: break-word;">
+	$ bids-validator "/media/localadmin/HagmannHDD/Seb/PsychoDev/NiftiBIDSCompliant" --ignoreSubjectConsistency
+	bids-validator@1.7.2
+
+	[...]
+
+	    Summary:                   Available Tasks:        Available Modalities:
+	    9212 Files, 47.25GB        rest                    MTR                  
+	    346 - Subjects                                     T1w                  
+	    6 - Sessions                                       T2map                
+	                                                       dwi                  
+	                                                       bold                  
+	                                                       T1map                
+	                                                       fieldmap              
+									</code></pre>
+								</li>
+								<li>Managed by Datalad and published to our institutional data storage <a style="color:chocolate">stockage-horus</a> accessible via <b>ssh</b></li>
+							</ul>
+						</small>
 					</section>
 
 					<section>
-						<h3>Slide with centered image</h3>
-
-						<center>
-							<img data-src="images/synapsy_logo.png" alt="A centered image" style="height: 480px; margin: 0.5rem 0.5rem 0.5rem a0.5rem; background: transparent;" class="demo-logo">
-						</center>
+						<h3>Dataset availability</h3>
+						<small>
+							<p align="left">
+								<b>Until now</b>
+									<ul>
+										<li>Dataset can be installed/cloned with:
+											<pre><code data-trim class="language-shell" style="word-wrap: break-word; max-width: 200">
+	$ datalad clone ssh://&lt;user&gt;@stockage-horus.chuv.ch/:/archive/PRTNR/CHUV/RADMED/phagmann/biopsycho/NiftiBIDSCompliant
+	  										</code></pre>
+	  										<b>Note:</b> one needs to be inside CHUV intranet or to use CHUV VPN and have access to <a style="color:chocolate">stockage-horus</a> to be able to clone the dataset
+	  									</li><br>
+	  								</ul>
+	  						</p>
+	  						<p align="left">
+								<b>In the near future</b>
+									<ul>
+										<li>Dataset could be installed/cloned with:
+											<pre><code data-trim class="language-shell" style="word-wrap: break-word; max-width: 200">
+	$ datalad clone git@github.com:NCCR-SYNAPSY/ds-biopsycho
+	  										</code></pre>
+	  										<b>Note:</b> everybody would be able to clone the dataset from GitHub but one still needs to be inside CHUV intranet or to use CHUV VPN and have access to <a style="color:chocolate">stockage-horus</a> to be able to retrieve the content of the files
+	  									</li>
+									</ul>
+							</p>
+						</small>
 					</section>
+				</section>
 
-					<section data-background-iframe="https://nccr-synapsy.ch/" data-background-interactive>
-						<div style="position: absolute; width: 40%; right: 0; box-shadow: 0 1px 4px rgba(0,0,0,0.5), 0 5px 25px rgba(0,0,0,0.2); background-color: rgba(0, 0, 0, 0.9); color: #fff; padding: 20px; font-size: 30px; text-align: left;">
-							<h2>Slide with embedded HTML page</h2>
-							<small><a href="https://nccr-synapsy.ch/">https://nccr-synapsy.ch/</a></small>
-						</div>
-					</section>	
-
+				<section>
+					<h3>Perspectives</h3>
+					<small>
+						<p style="text-align: left">
+							<ul>
+								<li>Potential development of a tool that would aggregate in one place all metadata and provide a search engine</li><br>
+								<li>How to get resources / support for each lab for maintaining the dataset catalog on the long-term and for staying part of the effort?</li>
+							</ul>
+						</p>
+					</small>
 				</section>
 
 				<section>
 					<h3>Thank you for your attention!</h3>
+
+					<p style="margin-top: 3em;">
+						<center>
+							<small>
+							Slides could be viewed at<br> <a href="https://sebastientourbier.github.io/synapsy-dmp-annual-meeting-10-21/">https://sebastientourbier.github.io/synapsy-dmp-annual-meeting-10-21/</a> 
+							</small>
+						</center>
+					</p>
 				</section>
 
 			</div>
