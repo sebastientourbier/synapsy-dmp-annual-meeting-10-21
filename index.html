@@ -1,0 +1,178 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+
+		<meta charset="utf-8">
+
+		<style type ="text/css">
+		.main {
+		    display: table;
+		    width: 100%;
+		    margin: 10px 0;
+		    text-align: center;
+		}
+		.main-inner {
+		    display: table-cell;
+		}
+		.main iframe {
+		    display: inline-block;
+		    vertical-align: middle;
+		}
+		</style>
+
+		<title>Presentation Title</title>
+
+		<meta name="description" content="TO BE COMPLETED">
+		<meta name="author" content="Sebastien Tourbier">
+
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<link rel="stylesheet" href="reveal.js/dist/reset.css">
+		<link rel="stylesheet" href="reveal.js/dist/reveal.css">
+		<link rel="stylesheet" href="reveal.js/dist/theme/black.css" id="theme">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="reveal.js/plugin/highlight/monokai.css" id="highlight-theme">
+
+	</head>
+
+	<body>
+
+		<div class="reveal">
+
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+
+				<section>
+					<br>
+					<br>
+					<h2>Presentation Title</h2>
+					<p>
+						<small>RevealJS Template</small>
+					</p>
+					<p>
+						<small>by <a href="https://wp.unil.ch/connectomics/sebastien-tourbier/">Sebastien Tourbier</a></small>
+					</p>
+					<p>
+						<small>DD MM 2021</small>
+					</p>
+					<p>
+						<img data-src="images/synapsy_logo.png" alt="NCCR-Synapsy logo" style="height: 100px; margin: 0 auto 4rem auto; background: transparent;" class="demo-logo">
+						<img data-src="images/connectomicslab_logo.png" alt="Connectomicslab logo" style="height: 100px; margin: 0 auto 4rem auto; background: transparent;" class="demo-logo">
+					</p>
+				</section>
+
+				<section>
+					<h2>TRANSITION SLIDE</h2>
+				</section>
+
+				<section>
+					<h3>Slide with list and small font size</h3>
+					<p>
+							<ul>		
+								<li> item 1
+								</li><br>
+								
+								<li> item 2<br><br>
+									<ul>
+										<small>
+											<li>item <a style="color:dodgerblue">2.1</a></li><br>
+											<li>item <a style="color:chocolate">2.2</a></li>
+										</small>
+									</ul>
+								</li>
+								
+							</ul>
+						
+					</p>
+
+				</section>
+
+				<section>
+					<section>
+						<h2>Section title slide</h2>
+					</section>
+
+					<section>
+						<h3>Slide with centered image</h3>
+
+						<center>
+							<img data-src="images/synapsy_logo.png" alt="A centered image" style="height: 480px; margin: 0.5rem 0.5rem 0.5rem a0.5rem; background: transparent;" class="demo-logo">
+						</center>
+					</section>
+
+					<section data-background-iframe="https://nccr-synapsy.ch/" data-background-interactive>
+						<div style="position: absolute; width: 40%; right: 0; box-shadow: 0 1px 4px rgba(0,0,0,0.5), 0 5px 25px rgba(0,0,0,0.2); background-color: rgba(0, 0, 0, 0.9); color: #fff; padding: 20px; font-size: 30px; text-align: left;">
+							<h2>Slide with embedded HTML page</h2>
+							<small><a href="https://nccr-synapsy.ch/">https://nccr-synapsy.ch/</a></small>
+						</div>
+					</section>	
+
+				</section>
+
+				<section>
+					<h3>Thank you for your attention!</h3>
+				</section>
+
+			</div>
+
+		</div>
+
+		<script src="reveal.js/dist/reveal.js"></script>
+		<script src="reveal.js/plugin/zoom/zoom.js"></script>
+		<script src="reveal.js/plugin/notes/notes.js"></script>
+		<script src="reveal.js/plugin/search/search.js"></script>
+		<script src="reveal.js/plugin/markdown/markdown.js"></script>
+		<script src="reveal.js/plugin/highlight/highlight.js"></script>
+		<script>
+
+			// Also available as an ES module, see:
+			// https://revealjs.com/initialization/
+			Reveal.initialize({
+				// Display presentation control arrows
+				controls: true,
+
+				// Help the user learn the controls by providing hints, for example by
+				// bouncing the down arrow when they first encounter a vertical slide
+				controlsTutorial: true,
+
+				// Display the page number of the current slide
+				// - true:    Show slide number
+				// - false:   Hide slide number
+				//
+				// Can optionally be set as a string that specifies the number formatting:
+				// - "h.v":   Horizontal . vertical slide number (default)
+				// - "h/v":   Horizontal / vertical slide number
+				// - "c":   Flattened slide number
+				// - "c/t":   Flattened slide number / total slides
+				//
+				// Alternatively, you can provide a function that returns the slide
+				// number for the current slide. The function should take in a slide
+				// object and return an array with one string [slideNumber] or
+				// three strings [n1,delimiter,n2]. See #formatSlideNumber().
+				slideNumber: true,
+
+				// Display a presentation progress bar
+				progress: true,
+
+				// Vertical centering of slides
+				center: true,
+
+				// Add the current slide number to the URL hash so that reloading the
+				// page/copying the URL will return you to the same slide
+				hash: true,
+
+				// Learn about plugins: https://revealjs.com/plugins/
+				plugins: [ RevealZoom, RevealNotes, RevealSearch, RevealMarkdown, RevealHighlight ]
+			});
+			
+
+		</script>
+
+	</body>
+</html>
+
